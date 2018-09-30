@@ -5,6 +5,7 @@ public class testClass {
 		
 
 		//my first test class
+		//my second part of my first class
 	}
 
 }
