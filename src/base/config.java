@@ -1,11 +1,23 @@
 package base;
 
-public class config {
-	
-	
-	
-	//domin
-	//browser
-	//driver
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
+import utils.SWDFunctions;
+
+
+public class config extends SWDFunctions {
+
+	// cross-browser 
+	// driver quite and close
+
+	@BeforeTest
+	public void beforeTestStart(){
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Driver//chromedriver.exe");	
+		driver = new ChromeDriver();
+		
+		driver.get("https://www.facebook.com");
+		
+		// 
+	}
 
 }
