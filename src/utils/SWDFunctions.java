@@ -24,5 +24,23 @@ public class SWDFunctions {
 	public void clickByXpath (String locator){
 		driver.findElement(By.xpath (locator)).click();
 	}
+	
+	// radio button
+		public void pickRadioButtonByIndexUsingXpath(int x){
+			// get list of the radio button
+			// click by index number
+		}
+
+		// dropdown
+
+		// alert - popup
+
+		// drag n drop
+
+		// slider
+
+		// iFrame
+
+		// connect db
 
 }
