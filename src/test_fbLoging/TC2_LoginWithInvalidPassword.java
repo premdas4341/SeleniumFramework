@@ -21,6 +21,7 @@ public class TC2_LoginWithInvalidPassword extends config{
 		typeByXpath (logIn.password, logInV.password_invalid_value);
 		// click on login button
 		clickByXpath (logIn.loginButton);
+	
 		
 		// assertion - verify if user able to see invalid inline validation error message
 		
