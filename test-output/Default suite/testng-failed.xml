@@ -3,16 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_fbLoging.TC2_LoginWithInvalidPassword">
+      <class name="test_Priority.TestPriority">
         <methods>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="test_fbLoginWithInvalidPassword"/>
-          <include name="closeDriver"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="skipTest"/>
         </methods>
-      </class> <!-- test_fbLoging.TC2_LoginWithInvalidPassword -->
+      </class> <!-- test_Priority.TestPriority -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\premd\AppData\Local\Temp\testng-eclipse-251105345\testng-customsuite.xml</span>
+                    <span>C:\Users\premd\AppData\Local\Temp\testng-eclipse--1099639477\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">4 methods,  1 skipped,  3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -102,10 +102,34 @@
                     <div class="method-list-content skipped suite-Default_suite">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test_fbLoging.TC2_LoginWithInvalidPassword" hash-for-method="test_fbLoginWithInvalidPassword">test_fbLoginWithInvalidPassword</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test_Priority.TestPriority" hash-for-method="skipTest">skipTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test_Priority.TestPriority" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test_Priority.TestPriority" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test_Priority.TestPriority" hash-for-method="test_qa">test_qa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -120,29 +144,22 @@
           <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">test_fbLoging.TC2_LoginWithInvalidPassword</span>
+              <span class="class-name">test_Priority.TestPriority</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_fbLoginWithInvalidPassword">
-                  </a> <!-- test_fbLoginWithInvalidPassword -->
-                  <span class="method-name">test_fbLoginWithInvalidPassword</span>
-                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
-	at org.openqa.selenium.remote.service.DriverService$Builder.&lt;init&gt;(DriverService.java:250)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.&lt;init&gt;(ChromeDriverService.java:98)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at base.config.setUp(config.java:22)
+                  <a name="skipTest">
+                  </a> <!-- skipTest -->
+                  <span class="method-name">skipTest</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping it becuase this test case no longer needed: JIRA-1233
+	at test_Priority.TestPriority.skipTest(TestPriority.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -162,22 +179,45 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableMap
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 33 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test_Priority.TestPriority</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_qa">
+                  </a> <!-- test_qa -->
+                  <span class="method-name">test_qa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\premd\AppData\Local\Temp\testng-eclipse-251105345\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\premd\AppData\Local\Temp\testng-eclipse--1099639477\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -186,7 +226,7 @@ Caused by: java.lang.ClassNotFoundException: com.google.common.collect.Immutable
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test_fbLoging.TC2_LoginWithInvalidPassword&quot;/&gt;
+      &lt;class name=&quot;test_Priority.TestPriority&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -226,16 +266,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_fbLoginWithInvalidPassword')
-data.setCell(0, 2, 'test_fbLoging.TC2_LoginWithInvalidPassword')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'skipTest')
+data.setCell(0, 2, 'test_Priority.TestPriority')
+data.setCell(0, 3, 22);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_qa')
+data.setCell(1, 2, 'test_Priority.TestPriority')
+data.setCell(1, 3, 3);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test2')
+data.setCell(2, 2, 'test_Priority.TestPriority')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test1')
+data.setCell(3, 2, 'test_Priority.TestPriority')
+data.setCell(3, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 28 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -250,9 +302,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test_Priority.TestPriority</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">test4</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -261,20 +320,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test_fbLoging.TC2_LoginWithInvalidPassword</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">beforeSuite</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setUp</span>
-                <span class="method-start">43 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">test_Priority.TestPriority</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test_fbLoginWithInvalidPassword</span>
-                <span class="method-start">-1540769628120 ms</span>
+                <span class="method-name">skipTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_qa</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">40 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
