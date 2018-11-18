@@ -2,7 +2,34 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/premd/eclipse-workspace/Feb2018/jars/selenium-java-3.13.0/client-combined-3.13.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/client-combined-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/client-combined-3.14.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/curvesapi-1.05.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/jaxb-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/jaxb-impl-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/okhttp-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/poi-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/poi-examples-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/poi-excelant-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/poi-ooxml-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/poi-ooxml-schemas-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/poi-scratchpad-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/premd/OneDrive/Documents/GitHub/SeleniumFramework/JARS/xmlbeans-3.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
