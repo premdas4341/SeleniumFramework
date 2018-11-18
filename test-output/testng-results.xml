@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="1" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="93" started-at="2018-11-11T15:51:14Z" finished-at="2018-11-11T15:51:14Z">
+  <suite name="Default suite" duration-ms="76" started-at="2018-11-18T03:51:54Z" finished-at="2018-11-18T03:51:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="93" started-at="2018-11-11T15:51:14Z" finished-at="2018-11-11T15:51:14Z">
+    <test name="Default test" duration-ms="76" started-at="2018-11-18T03:51:54Z" finished-at="2018-11-18T03:51:54Z">
       <class name="test_Priority.TestPriority">
-        <test-method status="SKIP" signature="skipTest()[pri:0, instance:test_Priority.TestPriority@5d5eef3d]" name="skipTest" duration-ms="22" started-at="2018-11-11T15:51:14Z" finished-at="2018-11-11T15:51:14Z">
+        <test-method status="SKIP" signature="skipTest()[pri:0, instance:test_Priority.TestPriority@4c70fda8]" name="skipTest" duration-ms="17" started-at="2018-11-18T03:51:54Z" finished-at="2018-11-18T03:51:54Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping it becuase this test case no longer needed: JIRA-1233]]>
@@ -46,15 +46,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipTest -->
-        <test-method status="PASS" signature="test_qa()[pri:1, instance:test_Priority.TestPriority@5d5eef3d]" name="test_qa" duration-ms="3" started-at="2018-11-11T15:51:14Z" finished-at="2018-11-11T15:51:14Z">
+        <test-method status="PASS" signature="test_qa()[pri:1, instance:test_Priority.TestPriority@4c70fda8]" name="test_qa" duration-ms="2" started-at="2018-11-18T03:51:54Z" finished-at="2018-11-18T03:51:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_qa -->
-        <test-method status="PASS" signature="test1()[pri:2, instance:test_Priority.TestPriority@5d5eef3d]" name="test1" duration-ms="1" started-at="2018-11-11T15:51:14Z" finished-at="2018-11-11T15:51:14Z">
+        <test-method status="PASS" signature="test1()[pri:2, instance:test_Priority.TestPriority@4c70fda8]" name="test1" duration-ms="2" started-at="2018-11-18T03:51:54Z" finished-at="2018-11-18T03:51:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:4, instance:test_Priority.TestPriority@5d5eef3d]" name="test2" duration-ms="2" started-at="2018-11-11T15:51:14Z" finished-at="2018-11-11T15:51:14Z">
+        <test-method status="PASS" signature="test2()[pri:4, instance:test_Priority.TestPriority@4c70fda8]" name="test2" duration-ms="0" started-at="2018-11-18T03:51:54Z" finished-at="2018-11-18T03:51:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
