@@ -14,6 +14,7 @@ public class config extends SWDFunctions {
 	public void beforeSuite(){
 		// db conntion
 		// suite start time
+		
 	}
 
 	@BeforeMethod
